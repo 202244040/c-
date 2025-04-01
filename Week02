@@ -37,7 +37,7 @@ namespace Week02Proj01
                 int data1 = int.Parse(tbxInput1.Text);
                 int data2 = int.Parse(tbxInput2.Text);
                 int result = data1 + data2; //산술연산자
-                lblResult.Text = "더하기:" + result.ToString();
+                lblResult.Text = ("더하기:" + result).ToString();
             }
             else
             {
